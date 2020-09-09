@@ -45,7 +45,6 @@ public class CatTest {
         assertEquals(1100, lionCat.getAverageHeight());
     }
 
-
     @Test
     public void feedTheLion() {
         Cat lionCat = new LionCat();
@@ -62,5 +61,5 @@ public class CatTest {
     public void feedTheCat() {
         Cat domesticCat = new DomesticCat();
         assertEquals("Purrrrrrr", domesticCat.eat());
-    }
+    } 
 }
