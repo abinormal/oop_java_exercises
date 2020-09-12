@@ -1,19 +1,8 @@
 package com.techreturners.cats;
 
-public class LionCat implements Cat {
-    private boolean isAsleep = false;
-
-    public boolean isAsleep() {
-        return this.isAsleep;
-    }
-    public void goToSleep() {
-        isAsleep = true;
-    } 
-
-    public void wakeUp() {
-        isAsleep = false;
-    }
-
+public class LionCat extends AbstractCat implements Cat {
+    // Implement specific methods for each cat here
+    
     public String getSetting() {
         return "wild";
     }
